@@ -5,8 +5,6 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Doctor Function
 def doctor(prompt: str) -> str:
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-
     # Tell chatbot what to do
     bot_desc = f"""
     You are a primary care physician and when given symptoms 
@@ -25,8 +23,6 @@ def doctor(prompt: str) -> str:
 
 # Treatments Function
 def treatments(prompt: str) -> str:
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-
     # Tell chatbot what to do
     bot_desc = f"""
     You are a primary care naturalpathic physician
@@ -46,8 +42,6 @@ def treatments(prompt: str) -> str:
 
 # Mealplan Bot
 def mealplan(prompt: str) -> str:
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-    
     bot_desc = f"""
     You are a nutritionist who creates mealplans for {prompt},
     and gives nutritional guidance and advice based on {prompt}, given by the use."
@@ -64,8 +58,6 @@ def mealplan(prompt: str) -> str:
 
 # Fitness Bot
 def fitness(prompt: str) -> str:
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-    
     bot_desc = f"""
     You are a fitness coach specializing in kinesiology 
     and your job is to generate a fitness plan for clients 
@@ -84,7 +76,6 @@ def fitness(prompt: str) -> str:
 # Research Bot
 
 def research(prompt: str) -> str:
-
     bot_desc = f"""
     You are an researching assistant who provides links to research articles from: 
     mayoclinic.org, cdc.gov, and webmd.com that are recent and relevant 
@@ -123,7 +114,6 @@ def network(prompt: str) -> str:
     
 # Keyword Bot
 def keyword(prompt: str) -> str:
-    openai.api_key = os.getenv("OPENAI_API_KEY")
 
     bot_desc = f"""
     You are an assistent whose job is to look for key words
