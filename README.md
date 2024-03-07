@@ -17,7 +17,7 @@
 
 ## Description
 
-The repository consists of several key Python files that work together to run the Flask application and handle various operations relating to health advice. It integrates with the OpenAI API to generate responses for various health-related tasks, such as providing diagnoses, suggesting treatments, creating meal plans, recommending fitness routines, and more.
+The repository consists of several key Python files that work together to run a Flask application and handle various operations relating to health advice. It integrates with the OpenAI API to generate responses for various health-related tasks, such as providing diagnoses, suggesting treatments, creating meal plans, recommending fitness routines, and more.
 
 ## Files
 
