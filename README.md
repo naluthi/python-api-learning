@@ -12,7 +12,6 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contact](#contact)
 
 ## Description
@@ -72,10 +71,6 @@ python main.py
 2. Access the application in your web browser at `http://localhost:5000`.
 
 3. Interact with the chatbots by providing prompts or queries related to your health concerns.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 # Contact
 
