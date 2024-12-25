@@ -1,4 +1,4 @@
-# FlaskMedAI-ML
+# Random Pythom Code and me trying ti learn something 
 
 ## Table of Contents
 
