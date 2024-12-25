@@ -1,4 +1,4 @@
-# Random Pythom Code and me trying ti learn something 
+# Random Python code and me trying to learn stuff 
 
 ## Table of Contents
 
